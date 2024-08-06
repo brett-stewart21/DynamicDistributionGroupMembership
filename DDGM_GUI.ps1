@@ -1,4 +1,7 @@
-﻿$exchangedd_form = New-Object System.Windows.Forms.Form
+Add-Type -AssemblyName System.Windows.Forms
+Add-Type -AssemblyName System.Drawing
+
+$exchangedd_form = New-Object System.Windows.Forms.Form
 $exchangedd_form.Text ='Dynamic Distribution Group Membership Tool'
 $exchangedd_form.Width = 600
 $exchangedd_form.Height = 400
